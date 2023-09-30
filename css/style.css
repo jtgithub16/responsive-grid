@@ -114,13 +114,13 @@ nav a:hover{
 
 .skip a{
   position: fixed;
-  margin-top: -40px;    
+  top: -40px;    
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
 
 .skip a:focus{
-  margin-top: 20px;
+  top: 20px;
 }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
