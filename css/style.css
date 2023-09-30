@@ -134,7 +134,7 @@ nav a:hover{
 .container {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  column-gap: 15px;
+  gap: 15px;
 } 
 
 /*@media only screen and (max-device-width: 500px) { */
@@ -203,11 +203,11 @@ first div in the grid  and place it in the grid. */
     }
 
     /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
-    .about, .method, .clients, .contact {
+    .about, .method-image, .contact-image, .clients {
       grid-column: 3/5;
     }
     
-    .about-image, .method-image, .clients-image,.contact-image{
+    .about-image, .method, .clients-image,.contact{
       grid-column: 2/4;
     } 
     .text-block{
